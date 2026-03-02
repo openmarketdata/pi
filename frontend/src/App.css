@@ -1,0 +1,98 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.app-header {
+  background: #1a1a2e;
+  color: #fff;
+  padding: 16px 24px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.app-header h1 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+
+.total-value-form {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.total-value-form label {
+  font-size: 0.9rem;
+  opacity: 0.85;
+}
+
+.total-value-form input {
+  padding: 6px 10px;
+  border: 1px solid #444;
+  border-radius: 4px;
+  background: #16213e;
+  color: #fff;
+  font-size: 0.9rem;
+  width: 140px;
+}
+
+.total-value-form button {
+  padding: 6px 14px;
+  background: #0f3460;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.total-value-form button:hover {
+  background: #16213e;
+}
+
+.error-banner {
+  background: #fee2e2;
+  color: #991b1b;
+  padding: 10px 24px;
+  font-size: 0.9rem;
+}
+
+.app-main {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 24px;
+  flex: 1;
+}
+
+.grid-section {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+}
+
+.grid-section h2 {
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 14px 18px;
+  border-bottom: 1px solid #e5e7eb;
+  background: #f9fafb;
+}
+
+.grid-hint {
+  font-weight: 400;
+  color: #6b7280;
+  font-size: 0.85rem;
+}
+
+.loading {
+  padding: 32px;
+  text-align: center;
+  color: #6b7280;
+}
